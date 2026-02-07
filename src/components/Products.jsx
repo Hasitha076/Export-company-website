@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 import cinnamonSticks from '../assets/cinnamon_sticks.jpg';
-import cinnamonPowder from '../assets/cinnamon_sticks.jpg';
-import cinnamonOil from '../assets/cinnamon_sticks.jpg';
-import cinnamonChips from '../assets/cinnamon_sticks.jpg';
+import cinnamonPowder from '../assets/cinnamon_powder.jpg';
+import cinnamonOil from '../assets/cinnamon_oil.jpg';
+import cinnamonTea from '../assets/cinnamon_tea.jpg';
 
 const products = [
     {
@@ -48,7 +48,7 @@ const products = [
         size: '100 ml', // Placeholder size
         price: '$9.99',
         description: 'A soothing blend of premium Ceylon cinnamon and tea leaves for a refreshing experience.',
-        image: cinnamonChips, // Placeholder
+        image: cinnamonTea, // Placeholder
     }
 ];
 
@@ -164,7 +164,7 @@ export default function Products() {
 
     return (
         <Box id="products" sx={{
-            backgroundColor: '#FAFAFA', // Very subtle off-white for depth
+            backgroundColor: 'rgb(160 118 88)', // Very subtle off-white for depth
             py: 10,
             minHeight: '100vh',
             display: 'flex',
@@ -177,7 +177,7 @@ export default function Products() {
                 <Typography variant="h3" sx={{
                     fontFamily: 'Playfair Display, serif', // Changed to Serif for header
                     fontWeight: 700,
-                    color: '#2A1B12',
+                    color: '#fff',
                     textAlign: 'center',
                     letterSpacing: '-0.5px',
                     fontSize: { xs: '2.5rem', md: '3rem' }
@@ -320,8 +320,8 @@ export default function Products() {
                     sx={{
                         mt: 8,
                         borderRadius: '30px',
-                        borderColor: '#8D6E63',
-                        color: '#5D4037',
+                        borderColor: '#fff',
+                        color: '#fff',
                         textTransform: 'none',
                         fontSize: '1rem',
                         px: 4,
