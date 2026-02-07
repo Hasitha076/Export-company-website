@@ -32,7 +32,7 @@ export default function Contact() {
                                         color: '#A67B5B',
                                         fontSize: '1.2rem',
                                         fontFamily: 'Playfair Display',
-                                        '&:hover': { color: '#E5DCC5', ml: 1, transition: 'all 0.3s ease' }
+                                        '&:hover': { color: '#E5DCC5', transition: 'all 0.3s ease' }
                                     }}
                                 >
                                     {text}
@@ -45,10 +45,10 @@ export default function Contact() {
                         <Typography variant="h6" sx={{ color: '#D4C4A8', mb: 3 }}>
                             Contact Info:
                         </Typography>
-                        <Typography variant="body1" sx={{ color: '#A67B5B', mb: 1, '&:hover': { color: '#E5DCC5', ml: 1, transition: 'all 0.3s ease' } }}>
+                        <Typography variant="body1" sx={{ color: '#A67B5B', mb: 1, '&:hover': { color: '#E5DCC5', transition: 'all 0.3s ease' } }}>
                             <a title='Click to mail' href="mailto:info@ceycennam.com">info@ceycennam.com</a>
                         </Typography>
-                        <Typography variant="body1" sx={{ color: '#A67B5B', '&:hover': { color: '#E5DCC5', ml: 1, transition: 'all 0.3s ease' } }}>
+                        <Typography variant="body1" sx={{ color: '#A67B5B', '&:hover': { color: '#E5DCC5', transition: 'all 0.3s ease' } }}>
                             <a title='Click to call' href="tel:+94771234567">+94 77 123 4567</a>
                         </Typography>
                     </Grid>
